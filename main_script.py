@@ -6,6 +6,7 @@
 
 import csv_reading_ahhad
 
-fileInput = input("Enter name of csv file in same directory")
-lines = csv_reading_ahhad.fileHandle(fileInput)
+file_data = csv_reading_ahhad.read_file()
+
+
 
